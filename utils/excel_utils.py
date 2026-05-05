@@ -40,5 +40,5 @@ class ExcelUtils:
         if status_col_index:
             sheet.cell(row=row_index, column=status_col_index).value = status_value
             wb.save(self.file_path)
-        
+        # this is a new comment to test git
         wb.close()
